@@ -2,13 +2,8 @@
 title: oklab()
 slug: Web/CSS/color_value/oklab
 page-type: css-function
-tags:
-  - CSS
-  - Data Type
-  - Reference
-  - color
-  - oklab
-  - Experimental
+status:
+  - experimental
 browser-compat: css.types.color.oklab
 ---
 
@@ -47,6 +42,10 @@ oklab(59.69% 0.1007 0.1191 / 0.5);
   - : the distance along the `b` axis in the Oklab colorspace, that is how blue/yellow the color is.
 - alpha
   - : A {{cssxref("&lt;number&gt;")}} between `0` and `1`, or a {{cssxref("&lt;percentage&gt;")}}, where the number `1` corresponds to `100%` (full opacity), representing the transparency (or alpha channel) of the color.
+
+### Formal syntax
+
+{{csssyntax}}
 
 ## Examples
 

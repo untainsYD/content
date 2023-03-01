@@ -1,12 +1,7 @@
 ---
 title: Standard metadata names
 slug: Web/HTML/Element/meta/name
-tags:
-  - Attribute
-  - HTML
-  - HTML document metadata
-  - Reference
-  - metadata
+page-type: html-attribute
 browser-compat: html.elements.meta.name
 ---
 

@@ -2,19 +2,12 @@
 title: Reflect.set()
 slug: Web/JavaScript/Reference/Global_Objects/Reflect/set
 page-type: javascript-static-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Reference
-  - Reflect
-  - Polyfill
 browser-compat: javascript.builtins.Reflect.set
 ---
 
 {{JSRef}}
 
-The static **`Reflect.set()`** method works like setting a
+The **`Reflect.set()`** static method works like setting a
 property on an object.
 
 {{EmbedInteractiveExample("pages/js/reflect-set.html")}}

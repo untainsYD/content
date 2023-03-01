@@ -2,19 +2,12 @@
 title: Reflect.isExtensible()
 slug: Web/JavaScript/Reference/Global_Objects/Reflect/isExtensible
 page-type: javascript-static-method
-tags:
-  - ECMAScript 2015
-  - JavaScript
-  - Method
-  - Reference
-  - Reflect
-  - Polyfill
 browser-compat: javascript.builtins.Reflect.isExtensible
 ---
 
 {{JSRef}}
 
-The static **`Reflect.isExtensible()`** method determines if an object is extensible (whether it can have new properties added to it). It is similar to {{jsxref("Object.isExtensible()")}}, but with [some differences](#difference_with_object.isextensible).
+The **`Reflect.isExtensible()`** static method determines if an object is extensible (whether it can have new properties added to it). It is similar to {{jsxref("Object.isExtensible()")}}, but with [some differences](#difference_with_object.isextensible).
 
 {{EmbedInteractiveExample("pages/js/reflect-isextensible.html", "taller")}}
 

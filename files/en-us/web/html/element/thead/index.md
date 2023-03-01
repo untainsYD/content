@@ -1,13 +1,7 @@
 ---
 title: '<thead>: The Table Head element'
 slug: Web/HTML/Element/thead
-tags:
-  - Element
-  - HTML
-  - HTML tabular data
-  - Reference
-  - Tables
-  - Web
+page-type: html-element
 browser-compat: html.elements.thead
 ---
 
@@ -78,7 +72,7 @@ See {{HTMLElement("table")}} for examples on `<thead>`.
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>

@@ -1,13 +1,7 @@
 ---
 title: '<optgroup>: The Option Group element'
 slug: Web/HTML/Element/optgroup
-tags:
-  - Element
-  - Forms
-  - HTML
-  - HTML forms
-  - Reference
-  - Web
+page-type: html-element
 browser-compat: html.elements.optgroup
 ---
 
@@ -51,13 +45,13 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Global_attrib
 
 {{EmbedLiveSample("Examples")}}
 
-## Technical Summary
+## Technical summary
 
 <table class="properties">
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
@@ -81,7 +75,7 @@ This element includes the [global attributes](/en-US/docs/Web/HTML/Global_attrib
     </tr>
     <tr>
       <th scope="row">Implicit ARIA role</th>
-      <td>{{ARIARole("group")}}</td>
+      <td><a href="/en-US/docs/Web/Accessibility/ARIA/Roles/group_role"><code>group</code></a></td>
     </tr>
     <tr>
       <th scope="row">Permitted ARIA roles</th>

@@ -2,12 +2,6 @@
 title: HTMLScriptElement
 slug: Web/API/HTMLScriptElement
 page-type: web-api-interface
-tags:
-  - API
-  - HTML DOM
-  - Interface
-  - NeedsNewLayout
-  - Reference
 browser-compat: api.HTMLScriptElement
 ---
 
@@ -90,8 +84,13 @@ function loadError(oError) {
 function prefixScript(url, onloadFunction) {
   const newScript = document.createElement("script");
   newScript.onerror = loadError;
-  if (onloadFunction) { newScript.onload = onloadFunction; }
-  document.currentScript.parentNode.insertBefore(newScript, document.currentScript);
+  if (onloadFunction) {
+    newScript.onload = onloadFunction;
+  }
+  document.currentScript.parentNode.insertBefore(
+    newScript,
+    document.currentScript
+  );
   newScript.src = url;
 }
 ```
@@ -106,7 +105,9 @@ function loadError(oError) {
 function affixScriptToHead(url, onloadFunction) {
   const newScript = document.createElement("script");
   newScript.onerror = loadError;
-  if (onloadFunction) { newScript.onload = onloadFunction; }
+  if (onloadFunction) {
+    newScript.onload = onloadFunction;
+  }
   document.head.appendChild(newScript);
   newScript.src = url;
 }
@@ -116,7 +117,9 @@ Sample usage:
 
 ```js
 affixScriptToHead("myScript1.js");
-affixScriptToHead("myScript2.js", () => { alert("The script \"myScript2.js\" has been correctly loaded."); });
+affixScriptToHead("myScript2.js", () => {
+  alert('The script "myScript2.js" has been correctly loaded.');
+});
 ```
 
 ### Checking if a script type is supported
@@ -127,10 +130,10 @@ The example below shows how to check for module support, using the existence of 
 
 ```js
 function checkModuleSupport() {
-  if ('supports' in HTMLScriptElement) {
-    return HTMLScriptElement.supports('module');
+  if ("supports" in HTMLScriptElement) {
+    return HTMLScriptElement.supports("module");
   }
-  return 'noModule' in document.createElement('script');
+  return "noModule" in document.createElement("script");
 }
 ```
 
@@ -150,4 +153,3 @@ Classic scripts are assumed to be supported on all browsers.
 - HTML {{HTMLElement("noscript")}} element
 - {{domxref("document.currentScript")}}
 - [Web Workers](/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) (code snippets similar to scripts but executed in [another global context](/en-US/docs/Web/API/DedicatedWorkerGlobalScope))
-- [Ryan Grove's \<script> and \<link> node event compatibility chart](https://pie.gd/test/script-link-events/)

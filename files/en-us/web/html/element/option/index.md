@@ -1,13 +1,7 @@
 ---
 title: '<option>: The HTML Option element'
 slug: Web/HTML/Element/option
-tags:
-  - Element
-  - Forms
-  - HTML
-  - HTML forms
-  - Reference
-  - Select
+page-type: html-element
 browser-compat: html.elements.option
 ---
 
@@ -44,7 +38,7 @@ See {{HTMLElement("select")}} for examples.
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
@@ -76,7 +70,7 @@ See {{HTMLElement("select")}} for examples.
     </tr>
     <tr>
       <th scope="row">Implicit ARIA role</th>
-      <td>{{ARIARole("option")}}</td>
+      <td><a href="/en-US/docs/Web/Accessibility/ARIA/Roles/option_role"><code>option</code></a></td>
     </tr>
     <tr>
       <th scope="row">Permitted ARIA roles</th>

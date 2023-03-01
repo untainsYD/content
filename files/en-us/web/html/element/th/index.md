@@ -1,20 +1,7 @@
 ---
 title: '<th>: The Table Header element'
 slug: Web/HTML/Element/th
-tags:
-  - Element
-  - HTML
-  - HTML tabular data
-  - Heading Cell
-  - Reference
-  - Table Cell
-  - Table Head
-  - Table Header
-  - Table Heading
-  - Table Heading Cell
-  - Tables
-  - Web
-  - cell
+page-type: html-element
 browser-compat: html.elements.th
 ---
 
@@ -121,7 +108,7 @@ See {{HTMLElement("table")}} for examples on `<th>`.
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
@@ -130,7 +117,7 @@ See {{HTMLElement("table")}} for examples on `<th>`.
     <tr>
       <th scope="row">Permitted content</th>
       <td>
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories#flow_content"
+        <a href="/en-US/docs/Web/HTML/Content_categories#flow_content"
           >Flow content</a
         >, but with no header, footer, sectioning content, or heading content
         descendants.
@@ -152,7 +139,7 @@ See {{HTMLElement("table")}} for examples on `<th>`.
     <tr>
       <th scope="row">Implicit ARIA role</th>
       <td>
-        {{ARIARole("columnheader")}} or {{ARIARole("rowheader")}}
+        <a href="/en-US/docs/Web/Accessibility/ARIA/Roles/columnheader_role"><code>columnheader</code></a> or <a href="/en-US/docs/Web/Accessibility/ARIA/Roles/rowheader_role"><code>rowheader</code></a>
       </td>
     </tr>
     <tr>

@@ -1,21 +1,10 @@
 ---
 title: <menuitem>
 slug: Web/HTML/Element/menuitem
-tags:
-  - Deprecated
-  - Element
-  - HTML
-  - Navigation
-  - Navigation Menus
-  - Reference
-  - UI
-  - UX
-  - User Interface
-  - User experience
-  - Web
-  - menuitem
-  - Non-standard
-browser-compat: html.elements.menuitem
+page-type: html-element
+status:
+  - deprecated
+  - non-standard
 ---
 
 {{HTMLSidebar}}{{Deprecated_Header}}{{Non-standard_header}}
@@ -93,13 +82,13 @@ div {
 
 {{EmbedLiveSample("Example", '100%', 80)}}
 
-## Technical Summary
+## Technical summary
 
 <table class="properties">
   <tbody>
     <tr>
       <th scope="row">
-        <a href="/en-US/docs/Web/Guide/HTML/Content_categories"
+        <a href="/en-US/docs/Web/HTML/Content_categories"
           >Content categories</a
         >
       </th>
@@ -141,7 +130,7 @@ Not part of any current specifications.
 
 ## Browser compatibility
 
-{{Compat}}
+No longer supported in any browser. Firefox, the only browser that supported this element, removed support in 85.
 
 ## See also
 
